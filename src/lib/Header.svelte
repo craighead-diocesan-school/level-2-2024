@@ -12,6 +12,7 @@
   }
   .hero {
     color: is-light;
-    size: is-medium;
+    size: is-large;
+    background-color: rgb(200, 247, 200);
   }
 </style>
