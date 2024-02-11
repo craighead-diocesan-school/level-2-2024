@@ -6,6 +6,6 @@
 </script>
 
 <Header />
-<Footer />
 <CompornentName />
 <Nav />
+<Footer />

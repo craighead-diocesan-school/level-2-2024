@@ -1,6 +1,5 @@
 <main>
   <h2>About me</h2>
-
   <p>Introduce myself</p>
   <ol>
     <li>Name: Ray</li>
@@ -14,6 +13,6 @@
     background: rgb(113, 164, 113);
   }
   ol {
-    border: 2px skyblue dashed;
+    border: 1px skyblue dashed;
   }
 </style>
