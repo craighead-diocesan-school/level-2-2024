@@ -12,7 +12,7 @@
 <style>
   .title {
     font-weight: bold;
-    font-size: xx-large;
+    font-size: 60px;
   }
   .hero {
     color: is-light;

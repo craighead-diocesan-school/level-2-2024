@@ -2,10 +2,11 @@
   import Header from "$lib/Header.svelte"
   import Footer from "$lib/Footer.svelte"
   import Nav from "$lib/Nav.svelte"
+  import Profile from "$lib/Card.svelte"
 </script>
 
-<body
-  ><Header subtitle="Hi there" />
+<body>
+  <Header subtitle="Hi there" />
 
   <Nav />
 
@@ -19,6 +20,7 @@
     </div>
   </main>
 
+  <Profile />
   <Footer />
 </body>
 
