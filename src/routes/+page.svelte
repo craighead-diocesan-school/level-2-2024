@@ -4,15 +4,19 @@
   import Nav from "$lib/Nav.svelte"
 </script>
 
-<body>
-  <Header />
+<body
+  ><Header subtitle="Hi there" />
 
   <Nav />
 
   <main class="content section">
     <h2>SvelteKit</h2>
-    <p class="paragraph">Welcome to coding with SvelteKit, a modern JavaScript framework that makes it easy to code great apps.</p>
-    <img class="image" src="summer-gallery-Username-ray/sveltemachine.png" alt="svelte machine" />
+    <div class="paragraph">
+      <p>Welcome to coding with SvelteKit, a modern JavaScript framework that makes it easy to code great apps.</p>
+    </div>
+    <div class="image">
+      <img class="image" src="/sveltemachine.png" alt="svelte machine" />
+    </div>
   </main>
 
   <Footer />
@@ -34,9 +38,12 @@
   /* main {
     background: rgb(113, 164, 113);
   } */
-  .paragraph,
+  .paragraph {
+    float: left;
+    padding: 5px 10px;
+  }
   .image {
-    display: flex;
+    float: right;
     padding: 5px 10px;
   }
 </style>
