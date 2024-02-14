@@ -5,19 +5,19 @@
 
 <header class="hero">
   <div class="hero-body">
-    <h1 class="title">{title}</h1>
-    <h2 class="subtitle">{subtitle}</h2>
+    <h1 class="title is-1 is-spaced">{title}</h1>
+    <h2 class="subtitle is-3 is-spaced">{subtitle}</h2>
   </div>
 </header>
 
 <style>
   .title {
-    font-weight: bold;
-    font-size: 60px;
+    margin-left: 0px;
+  }
+  .subtitle {
+    margin-left: 0px;
   }
   .hero {
-    color: is-light;
-    size: is-large;
     background-color: rgb(200, 247, 200);
   }
 </style>

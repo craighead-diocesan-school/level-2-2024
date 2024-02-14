@@ -16,6 +16,7 @@
     size: is-small;
   }
   .copyright {
-    margin: 10px;
+    margin: 10px 0px;
+    padding-left: 0px;
   }
 </style>

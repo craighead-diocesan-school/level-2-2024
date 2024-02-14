@@ -4,27 +4,27 @@
 </script>
 
 <div class="card">
-  <div class="card-image">
-    <img src="turtle.jpeg" alt="turtle" />
-    <img src="Platypus.jpg" alt="platypus" />
+  <div class="tile is-4">
+    <div class="tile is-child box">
+      <img src="turtle.jpeg" alt="turtle" />
+    </div>
+    <div class="tile is-child box">
+      <img src="Platypus.jpg" alt="platypus" />
+    </div>
   </div>
-  <p class="title is-4">{author}</p>
-  <p class="subtitle is-6">{sign}</p>
+  <div class="paragraph">
+    <p class="title is-4">{author}</p>
+    <p class="subtitle is-5">{sign}</p>
+  </div>
 </div>
-
-<!-- .card -->
 
 <style>
   .card {
     background-color: aliceblue;
-    min-height: 100vh;
-    flex-direction: column;
-    padding: 5px 10px;
+    margin: 10px;
+    padding: 20px;
   }
-  .card-image {
-    display: flex;
-    width: 600px;
-    height: auto;
-    margin: 10px 5px;
+  .paragraph {
+    margin: 20px 0px;
   }
 </style>

@@ -12,6 +12,7 @@
     text-transform: uppercase;
     size: is-medium;
     text-shadow: 1px 1px rgb(0, 2, 1);
+    padding: 10px;
   }
   .navbar:hover {
     margin: 4px 4px 2px 2px;

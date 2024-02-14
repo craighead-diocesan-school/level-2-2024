@@ -12,8 +12,8 @@
   <Nav />
 
   <main class="content section">
-    <h2>SvelteKit</h2>
-    <div class="paragraph">
+    <h2 class="title is-3 is-spaced">SvelteKit</h2>
+    <div class="subtitle is-6">
       <p>Welcome to coding with SvelteKit, a modern JavaScript framework that makes it easy to code great apps.</p>
     </div>
     <div class="image">
@@ -39,17 +39,15 @@
     padding: 30px;
     margin: 0px;
     background: rgb(113, 164, 113);
-    size: is-medium;
   }
   /* main {
     background: rgb(113, 164, 113);
   } */
-  .paragraph {
+  .subtitle {
     float: left;
-    padding: 5px 10px;
   }
   .image {
     float: right;
-    padding: 5px 10px;
+    padding: 0px 10px;
   }
 </style>
