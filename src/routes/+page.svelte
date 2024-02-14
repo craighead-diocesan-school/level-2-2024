@@ -3,6 +3,7 @@
   import Footer from "$lib/Footer.svelte"
   import Nav from "$lib/Nav.svelte"
   import Profile from "$lib/Card.svelte"
+  import Image from "$lib/Image.svelte"
 </script>
 
 <body>
@@ -19,6 +20,8 @@
       <img class="image" src="/sveltemachine.png" alt="svelte machine" />
     </div>
   </main>
+
+  <Image />
 
   <Profile author="Ray Maeda" sign="@raymaeda" />
 
