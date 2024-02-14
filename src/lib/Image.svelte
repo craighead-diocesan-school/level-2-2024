@@ -4,7 +4,7 @@
   export let caption = "Sea and sand"
 </script>
 
-<figure class="image is-150*150">
+<figure class="image is-60*60">
   <img class="image is-rounded" {src} {alt} />
   <figcaption>{caption}</figcaption>
 </figure>
