@@ -1,5 +1,9 @@
+<script>
+  export let organisation
+</script>
+
 <footer class="footer">
-  <p class="copyright">&copy; Craighead Diocesan School 2024</p>
+  <p class="copyright">&copy; {organisation}</p>
 </footer>
 
 <style>

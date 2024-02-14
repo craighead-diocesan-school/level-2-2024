@@ -1,10 +1,15 @@
+<script>
+  export let author
+  export let sign
+</script>
+
 <div class="card">
   <div class="card-image">
     <img src="turtle.jpeg" alt="turtle" />
     <img src="Platypus.jpg" alt="platypus" />
   </div>
-  <p class="title is-4">Ray Maeda</p>
-  <p class="subtitle is-6">@raymaeda</p>
+  <p class="title is-4">{author}</p>
+  <p class="subtitle is-6">{sign}</p>
 </div>
 
 <!-- .card -->

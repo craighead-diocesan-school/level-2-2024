@@ -6,7 +6,7 @@
 </script>
 
 <body>
-  <Header subtitle="Hi there" />
+  <Header title="Summer Gallery" subtitle="Images from summer" />
 
   <Nav />
 
@@ -20,8 +20,9 @@
     </div>
   </main>
 
-  <Profile />
-  <Footer />
+  <Profile author="Ray Maeda" sign="@raymaeda" />
+
+  <Footer organisation="Craighead Diocesan School 2024" />
 </body>
 
 <style>
