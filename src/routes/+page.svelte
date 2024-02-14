@@ -21,9 +21,9 @@
     </div>
   </main>
 
-  <Image />
-
   <Profile author="Ray Maeda" sign="@raymaeda" />
+
+  <Image />
 
   <Footer organisation="Craighead Diocesan School 2024" />
 </body>
