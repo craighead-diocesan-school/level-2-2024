@@ -12,6 +12,9 @@
 </figure>
 
 <style>
+  figure {
+    background-color: rgb(113, 164, 113);
+  }
   .image {
     margin: 0 auto;
     margin-top: 20px;
